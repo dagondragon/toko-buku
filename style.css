@@ -4,12 +4,14 @@
   margin: 10px 0;
 }
 
-/* Mobile-first: sembunyikan deskripsi di HP */
+/* Mobile-first: tampilkan deskripsi di HP */
 @media (max-width: 600px) {
   .deskripsi {
-    display: none;
+    display: block; 
+    font-size: 12px; /* boleh ditambahkan supaya lebih rapi di HP */
   }
 }
+
 
 /* Tablet */
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -32,3 +34,4 @@
 .btn-beli {
   min-height: 44px;
 }
+
